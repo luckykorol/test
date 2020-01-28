@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+       
+
+</head>
+<body>
+    <div id="fruits1"></div>
+    <script>
+        let fruits =["яблоко","апельсин","слива","манго", "арбуз"];
+        let mycolor= ["red","green","blue", "yellow","pink"];
+        let s="";
+        //  a=fruits.length;
+        //  alert(a);
+           for(i=0;i<fruits.length;i++){
+
+               s+=`<p style="color: ${mycolor[i]}">${fruits[i]}</p>`
+            
+           }
+
+      fruits1.innerHTML=s
+    </script>
+    
+</body>
+</html>
